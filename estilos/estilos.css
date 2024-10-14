@@ -1,8 +1,14 @@
+/*Todos los div tendran esta estructura de css de nuestro index.html*/
 div {
+    /*Ancho del contenedor*/
     width: 100px;
+    /*Largo del contenedor*/
     height: 100px;
+    /*Color de fondo del div*/
     background: #4a88f4;
+    /*Color de la letra*/
     color: white;
+    /*Tamaño de la fuente del texto dentro del div*/
     font-size: 30px;
 }
 
@@ -20,25 +26,14 @@ su lugar es ocupado por otro componente*/
     left: 0;
     right:0;
 }
+/*clase llamada cja_padre*/
 .cja_padre{
+    /*Ancho del contenedor*/
     width: 500px;
+    /*Largo del contenedor*/
     height: 500px;
+    /*Color a la etiqueta asignada la clase en nuestro index.html*/
     background: black;
     /*su espacion no se vera o
     position: relative*/
-}
-
-/*Estilos a los links*/
-a {
-    color: #cf1767;
-    transition: all 0.3s ease-in-out;
-}
-
-/*Transicion de estilos para los links*/
-a:hover,
-/*Le genera un pequeño brillo*/
-a:focus,
-/**/
-a:active {
-    color: white;
 }
